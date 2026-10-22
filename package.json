@@ -1,0 +1,9 @@
+{
+  "name": "ryoma-crimson-cursors",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Ryoma Crimson Windows cursor collection",
+  "dependencies": {
+    "sharp": "^0.34.0"
+  }
+}
