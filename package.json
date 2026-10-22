@@ -3,6 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "description": "Ryoma Crimson Windows cursor collection",
+  "license": "MIT",
   "dependencies": {
     "sharp": "^0.34.0"
   }
