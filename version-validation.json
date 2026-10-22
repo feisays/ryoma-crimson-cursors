@@ -1,0 +1,38 @@
+{
+  "v1_archive_unchanged": true,
+  "v1_archive_sha256": "053121eb5cfafc848e0ea9f35b0c94ad1e56b382a7ab9b9b7b4e43a01048f7c9",
+  "unchanged_cursor_files": [
+    "alternate.cur",
+    "handwriting.cur",
+    "help.cur",
+    "link.cur",
+    "location.cur",
+    "move.cur",
+    "normal.cur",
+    "person.cur",
+    "precision.cur",
+    "resize-ew.cur",
+    "resize-nesw.cur",
+    "resize-ns.cur",
+    "resize-nwse.cur",
+    "text.cur",
+    "unavailable.cur",
+    "working.ani"
+  ],
+  "changed_cursor_files": [
+    "busy.ani"
+  ],
+  "dot_phase_frames": [
+    8,
+    8,
+    8
+  ],
+  "dot_seconds_each": 0.4,
+  "frame_duration_ms": 50,
+  "loop_seconds": 1.2,
+  "v2_license_included": true,
+  "distinct_scheme_names": [
+    "Ryoma Crimson",
+    "Ryoma Crimson v2.0.0"
+  ]
+}

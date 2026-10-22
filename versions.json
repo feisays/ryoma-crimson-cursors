@@ -1,0 +1,22 @@
+{
+  "current": "2.0.0",
+  "releases": [
+    {
+      "version": "2.0.0",
+      "tag": "v2.0.0",
+      "scheme_name": "Ryoma Crimson v2.0.0",
+      "busy_animation": "string-bed bounce and three cycling dots",
+      "package": "Ryoma-Crimson-v2.0.0-Windows.zip",
+      "sha256": "bee7ae4b52e3390c37f6516157d62845ed8725676192828e8bdb04c96d617959"
+    },
+    {
+      "version": "1.0.0",
+      "tag": "v1.0.0",
+      "source_commit": "5eb5bebd2f735e6d5333bf018c3788f501e4e402",
+      "scheme_name": "Ryoma Crimson",
+      "busy_animation": "throat orbit with front/back occlusion",
+      "package": "Ryoma-Crimson-Windows.zip",
+      "sha256": "053121eb5cfafc848e0ea9f35b0c94ad1e56b382a7ab9b9b7b4e43a01048f7c9"
+    }
+  ]
+}

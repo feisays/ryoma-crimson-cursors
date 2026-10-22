@@ -1,0 +1,967 @@
+{
+  "version": "2.0.0",
+  "roles": 17,
+  "sizes": [
+    32,
+    48,
+    64,
+    96
+  ],
+  "animation_frames": 24,
+  "fps": 20,
+  "loop_seconds": 1.2,
+  "windows_loads": [
+    {
+      "role": "normal",
+      "size": 32,
+      "hotspot": [
+        7,
+        5
+      ],
+      "source_hotspot": [
+        7,
+        5
+      ],
+      "loaded": true
+    },
+    {
+      "role": "normal",
+      "size": 48,
+      "hotspot": [
+        11,
+        7
+      ],
+      "source_hotspot": [
+        11,
+        7
+      ],
+      "loaded": true
+    },
+    {
+      "role": "normal",
+      "size": 64,
+      "hotspot": [
+        14,
+        9
+      ],
+      "source_hotspot": [
+        14,
+        9
+      ],
+      "loaded": true
+    },
+    {
+      "role": "normal",
+      "size": 96,
+      "hotspot": [
+        21,
+        14
+      ],
+      "source_hotspot": [
+        21,
+        14
+      ],
+      "loaded": true
+    },
+    {
+      "role": "help",
+      "size": 32,
+      "hotspot": [
+        7,
+        5
+      ],
+      "source_hotspot": [
+        7,
+        5
+      ],
+      "loaded": true
+    },
+    {
+      "role": "help",
+      "size": 48,
+      "hotspot": [
+        11,
+        7
+      ],
+      "source_hotspot": [
+        11,
+        7
+      ],
+      "loaded": true
+    },
+    {
+      "role": "help",
+      "size": 64,
+      "hotspot": [
+        14,
+        9
+      ],
+      "source_hotspot": [
+        14,
+        9
+      ],
+      "loaded": true
+    },
+    {
+      "role": "help",
+      "size": 96,
+      "hotspot": [
+        21,
+        14
+      ],
+      "source_hotspot": [
+        21,
+        14
+      ],
+      "loaded": true
+    },
+    {
+      "role": "working",
+      "size": 32,
+      "hotspot": [
+        7,
+        5
+      ],
+      "source_hotspot": [
+        7,
+        5
+      ],
+      "loaded": true
+    },
+    {
+      "role": "working",
+      "size": 48,
+      "hotspot": [
+        11,
+        7
+      ],
+      "source_hotspot": [
+        11,
+        7
+      ],
+      "loaded": true
+    },
+    {
+      "role": "working",
+      "size": 64,
+      "hotspot": [
+        14,
+        9
+      ],
+      "source_hotspot": [
+        14,
+        9
+      ],
+      "loaded": true
+    },
+    {
+      "role": "working",
+      "size": 96,
+      "hotspot": [
+        21,
+        14
+      ],
+      "source_hotspot": [
+        21,
+        14
+      ],
+      "loaded": true
+    },
+    {
+      "role": "busy",
+      "size": 32,
+      "hotspot": [
+        7,
+        5
+      ],
+      "source_hotspot": [
+        7,
+        5
+      ],
+      "loaded": true
+    },
+    {
+      "role": "busy",
+      "size": 48,
+      "hotspot": [
+        11,
+        7
+      ],
+      "source_hotspot": [
+        11,
+        7
+      ],
+      "loaded": true
+    },
+    {
+      "role": "busy",
+      "size": 64,
+      "hotspot": [
+        14,
+        9
+      ],
+      "source_hotspot": [
+        14,
+        9
+      ],
+      "loaded": true
+    },
+    {
+      "role": "busy",
+      "size": 96,
+      "hotspot": [
+        21,
+        14
+      ],
+      "source_hotspot": [
+        21,
+        14
+      ],
+      "loaded": true
+    },
+    {
+      "role": "precision",
+      "size": 32,
+      "hotspot": [
+        16,
+        16
+      ],
+      "source_hotspot": [
+        16,
+        16
+      ],
+      "loaded": true
+    },
+    {
+      "role": "precision",
+      "size": 48,
+      "hotspot": [
+        24,
+        24
+      ],
+      "source_hotspot": [
+        24,
+        24
+      ],
+      "loaded": true
+    },
+    {
+      "role": "precision",
+      "size": 64,
+      "hotspot": [
+        32,
+        32
+      ],
+      "source_hotspot": [
+        32,
+        32
+      ],
+      "loaded": true
+    },
+    {
+      "role": "precision",
+      "size": 96,
+      "hotspot": [
+        48,
+        48
+      ],
+      "source_hotspot": [
+        48,
+        48
+      ],
+      "loaded": true
+    },
+    {
+      "role": "text",
+      "size": 32,
+      "hotspot": [
+        16,
+        16
+      ],
+      "source_hotspot": [
+        16,
+        16
+      ],
+      "loaded": true
+    },
+    {
+      "role": "text",
+      "size": 48,
+      "hotspot": [
+        24,
+        24
+      ],
+      "source_hotspot": [
+        24,
+        24
+      ],
+      "loaded": true
+    },
+    {
+      "role": "text",
+      "size": 64,
+      "hotspot": [
+        32,
+        32
+      ],
+      "source_hotspot": [
+        32,
+        32
+      ],
+      "loaded": true
+    },
+    {
+      "role": "text",
+      "size": 96,
+      "hotspot": [
+        48,
+        48
+      ],
+      "source_hotspot": [
+        48,
+        48
+      ],
+      "loaded": true
+    },
+    {
+      "role": "handwriting",
+      "size": 32,
+      "hotspot": [
+        9,
+        25
+      ],
+      "source_hotspot": [
+        9,
+        25
+      ],
+      "loaded": true
+    },
+    {
+      "role": "handwriting",
+      "size": 48,
+      "hotspot": [
+        13,
+        38
+      ],
+      "source_hotspot": [
+        13,
+        38
+      ],
+      "loaded": true
+    },
+    {
+      "role": "handwriting",
+      "size": 64,
+      "hotspot": [
+        17,
+        51
+      ],
+      "source_hotspot": [
+        17,
+        51
+      ],
+      "loaded": true
+    },
+    {
+      "role": "handwriting",
+      "size": 96,
+      "hotspot": [
+        26,
+        76
+      ],
+      "source_hotspot": [
+        26,
+        76
+      ],
+      "loaded": true
+    },
+    {
+      "role": "unavailable",
+      "size": 32,
+      "hotspot": [
+        7,
+        5
+      ],
+      "source_hotspot": [
+        7,
+        5
+      ],
+      "loaded": true
+    },
+    {
+      "role": "unavailable",
+      "size": 48,
+      "hotspot": [
+        11,
+        7
+      ],
+      "source_hotspot": [
+        11,
+        7
+      ],
+      "loaded": true
+    },
+    {
+      "role": "unavailable",
+      "size": 64,
+      "hotspot": [
+        14,
+        9
+      ],
+      "source_hotspot": [
+        14,
+        9
+      ],
+      "loaded": true
+    },
+    {
+      "role": "unavailable",
+      "size": 96,
+      "hotspot": [
+        21,
+        14
+      ],
+      "source_hotspot": [
+        21,
+        14
+      ],
+      "loaded": true
+    },
+    {
+      "role": "resize-ns",
+      "size": 32,
+      "hotspot": [
+        16,
+        16
+      ],
+      "source_hotspot": [
+        16,
+        16
+      ],
+      "loaded": true
+    },
+    {
+      "role": "resize-ns",
+      "size": 48,
+      "hotspot": [
+        24,
+        24
+      ],
+      "source_hotspot": [
+        24,
+        24
+      ],
+      "loaded": true
+    },
+    {
+      "role": "resize-ns",
+      "size": 64,
+      "hotspot": [
+        32,
+        32
+      ],
+      "source_hotspot": [
+        32,
+        32
+      ],
+      "loaded": true
+    },
+    {
+      "role": "resize-ns",
+      "size": 96,
+      "hotspot": [
+        48,
+        48
+      ],
+      "source_hotspot": [
+        48,
+        48
+      ],
+      "loaded": true
+    },
+    {
+      "role": "resize-ew",
+      "size": 32,
+      "hotspot": [
+        16,
+        16
+      ],
+      "source_hotspot": [
+        16,
+        16
+      ],
+      "loaded": true
+    },
+    {
+      "role": "resize-ew",
+      "size": 48,
+      "hotspot": [
+        24,
+        24
+      ],
+      "source_hotspot": [
+        24,
+        24
+      ],
+      "loaded": true
+    },
+    {
+      "role": "resize-ew",
+      "size": 64,
+      "hotspot": [
+        32,
+        32
+      ],
+      "source_hotspot": [
+        32,
+        32
+      ],
+      "loaded": true
+    },
+    {
+      "role": "resize-ew",
+      "size": 96,
+      "hotspot": [
+        48,
+        48
+      ],
+      "source_hotspot": [
+        48,
+        48
+      ],
+      "loaded": true
+    },
+    {
+      "role": "resize-nwse",
+      "size": 32,
+      "hotspot": [
+        16,
+        16
+      ],
+      "source_hotspot": [
+        16,
+        16
+      ],
+      "loaded": true
+    },
+    {
+      "role": "resize-nwse",
+      "size": 48,
+      "hotspot": [
+        24,
+        24
+      ],
+      "source_hotspot": [
+        24,
+        24
+      ],
+      "loaded": true
+    },
+    {
+      "role": "resize-nwse",
+      "size": 64,
+      "hotspot": [
+        32,
+        32
+      ],
+      "source_hotspot": [
+        32,
+        32
+      ],
+      "loaded": true
+    },
+    {
+      "role": "resize-nwse",
+      "size": 96,
+      "hotspot": [
+        48,
+        48
+      ],
+      "source_hotspot": [
+        48,
+        48
+      ],
+      "loaded": true
+    },
+    {
+      "role": "resize-nesw",
+      "size": 32,
+      "hotspot": [
+        16,
+        16
+      ],
+      "source_hotspot": [
+        16,
+        16
+      ],
+      "loaded": true
+    },
+    {
+      "role": "resize-nesw",
+      "size": 48,
+      "hotspot": [
+        24,
+        24
+      ],
+      "source_hotspot": [
+        24,
+        24
+      ],
+      "loaded": true
+    },
+    {
+      "role": "resize-nesw",
+      "size": 64,
+      "hotspot": [
+        32,
+        32
+      ],
+      "source_hotspot": [
+        32,
+        32
+      ],
+      "loaded": true
+    },
+    {
+      "role": "resize-nesw",
+      "size": 96,
+      "hotspot": [
+        48,
+        48
+      ],
+      "source_hotspot": [
+        48,
+        48
+      ],
+      "loaded": true
+    },
+    {
+      "role": "move",
+      "size": 32,
+      "hotspot": [
+        16,
+        16
+      ],
+      "source_hotspot": [
+        16,
+        16
+      ],
+      "loaded": true
+    },
+    {
+      "role": "move",
+      "size": 48,
+      "hotspot": [
+        24,
+        24
+      ],
+      "source_hotspot": [
+        24,
+        24
+      ],
+      "loaded": true
+    },
+    {
+      "role": "move",
+      "size": 64,
+      "hotspot": [
+        32,
+        32
+      ],
+      "source_hotspot": [
+        32,
+        32
+      ],
+      "loaded": true
+    },
+    {
+      "role": "move",
+      "size": 96,
+      "hotspot": [
+        48,
+        48
+      ],
+      "source_hotspot": [
+        48,
+        48
+      ],
+      "loaded": true
+    },
+    {
+      "role": "alternate",
+      "size": 32,
+      "hotspot": [
+        16,
+        5
+      ],
+      "source_hotspot": [
+        16,
+        5
+      ],
+      "loaded": true
+    },
+    {
+      "role": "alternate",
+      "size": 48,
+      "hotspot": [
+        24,
+        7
+      ],
+      "source_hotspot": [
+        24,
+        8
+      ],
+      "loaded": true
+    },
+    {
+      "role": "alternate",
+      "size": 64,
+      "hotspot": [
+        32,
+        11
+      ],
+      "source_hotspot": [
+        32,
+        10
+      ],
+      "loaded": true
+    },
+    {
+      "role": "alternate",
+      "size": 96,
+      "hotspot": [
+        48,
+        16
+      ],
+      "source_hotspot": [
+        48,
+        16
+      ],
+      "loaded": true
+    },
+    {
+      "role": "link",
+      "size": 32,
+      "hotspot": [
+        7,
+        5
+      ],
+      "source_hotspot": [
+        7,
+        5
+      ],
+      "loaded": true
+    },
+    {
+      "role": "link",
+      "size": 48,
+      "hotspot": [
+        11,
+        7
+      ],
+      "source_hotspot": [
+        11,
+        7
+      ],
+      "loaded": true
+    },
+    {
+      "role": "link",
+      "size": 64,
+      "hotspot": [
+        14,
+        9
+      ],
+      "source_hotspot": [
+        14,
+        9
+      ],
+      "loaded": true
+    },
+    {
+      "role": "link",
+      "size": 96,
+      "hotspot": [
+        21,
+        14
+      ],
+      "source_hotspot": [
+        21,
+        14
+      ],
+      "loaded": true
+    },
+    {
+      "role": "location",
+      "size": 32,
+      "hotspot": [
+        7,
+        5
+      ],
+      "source_hotspot": [
+        7,
+        5
+      ],
+      "loaded": true
+    },
+    {
+      "role": "location",
+      "size": 48,
+      "hotspot": [
+        11,
+        7
+      ],
+      "source_hotspot": [
+        11,
+        7
+      ],
+      "loaded": true
+    },
+    {
+      "role": "location",
+      "size": 64,
+      "hotspot": [
+        14,
+        9
+      ],
+      "source_hotspot": [
+        14,
+        9
+      ],
+      "loaded": true
+    },
+    {
+      "role": "location",
+      "size": 96,
+      "hotspot": [
+        21,
+        14
+      ],
+      "source_hotspot": [
+        21,
+        14
+      ],
+      "loaded": true
+    },
+    {
+      "role": "person",
+      "size": 32,
+      "hotspot": [
+        7,
+        5
+      ],
+      "source_hotspot": [
+        7,
+        5
+      ],
+      "loaded": true
+    },
+    {
+      "role": "person",
+      "size": 48,
+      "hotspot": [
+        11,
+        7
+      ],
+      "source_hotspot": [
+        11,
+        7
+      ],
+      "loaded": true
+    },
+    {
+      "role": "person",
+      "size": 64,
+      "hotspot": [
+        14,
+        9
+      ],
+      "source_hotspot": [
+        14,
+        9
+      ],
+      "loaded": true
+    },
+    {
+      "role": "person",
+      "size": 96,
+      "hotspot": [
+        21,
+        14
+      ],
+      "source_hotspot": [
+        21,
+        14
+      ],
+      "loaded": true
+    }
+  ],
+  "native_animation_rendering": [
+    {
+      "role": "working",
+      "size": 32,
+      "native_unique_frames": 24,
+      "grip_and_leading_rim_fixed": true,
+      "light_and_dark_rendering": true
+    },
+    {
+      "role": "working",
+      "size": 48,
+      "native_unique_frames": 24,
+      "grip_and_leading_rim_fixed": true,
+      "light_and_dark_rendering": true
+    },
+    {
+      "role": "working",
+      "size": 64,
+      "native_unique_frames": 24,
+      "grip_and_leading_rim_fixed": true,
+      "light_and_dark_rendering": true
+    },
+    {
+      "role": "working",
+      "size": 96,
+      "native_unique_frames": 24,
+      "grip_and_leading_rim_fixed": true,
+      "light_and_dark_rendering": true
+    },
+    {
+      "role": "busy",
+      "size": 32,
+      "native_unique_frames": 24,
+      "grip_and_leading_rim_fixed": true,
+      "light_and_dark_rendering": true
+    },
+    {
+      "role": "busy",
+      "size": 48,
+      "native_unique_frames": 24,
+      "grip_and_leading_rim_fixed": true,
+      "light_and_dark_rendering": true
+    },
+    {
+      "role": "busy",
+      "size": 64,
+      "native_unique_frames": 24,
+      "grip_and_leading_rim_fixed": true,
+      "light_and_dark_rendering": true
+    },
+    {
+      "role": "busy",
+      "size": 96,
+      "native_unique_frames": 24,
+      "grip_and_leading_rim_fixed": true,
+      "light_and_dark_rendering": true
+    }
+  ],
+  "checks": [
+    "All 17 files load through Windows LoadImageW at 4 sizes: 68 successful loads.",
+    "Embedded hotspots match manifest exactly in all animation frames; Windows-scaled hotspots differ by at most 1 px.",
+    "All embedded CUR and ANI raster pixels match their RGBA source exactly.",
+    "All native CUR and ANI steps render without clipping on light and dark backgrounds.",
+    "Both ANI files render 24 distinct frames at every size; grip and leading rim stay fixed.",
+    "Every raster resource has transparent margins without clipping.",
+    "No system cursor or registry setting was changed during validation."
+  ],
+  "rendering_note": "LoadImageW may select and resample another embedded size according to Windows pointer size settings. Source equality is checked against embedded DIB bytes, while native output is checked through actual GDI rendering."
+}

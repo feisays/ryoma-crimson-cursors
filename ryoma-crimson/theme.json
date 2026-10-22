@@ -1,0 +1,29 @@
+{
+  "name": "Ryoma Crimson v2.0.0",
+  "version": "2.0.0",
+  "palette": {
+    "crimson": "#E62D43",
+    "ivory": "#FFF4DF",
+    "graphite": "#24252B",
+    "lime": "#D9F348"
+  },
+  "sizes": [
+    32,
+    48,
+    64,
+    96
+  ],
+  "fps": 20,
+  "loop_seconds": 1.2,
+  "frames": 24,
+  "animation": {
+    "working": "string-bed bounce",
+    "busy": "string-bed bounce with three cycling dots"
+  },
+  "status_dot_seconds": 0.4,
+  "line_core_at_32_px": 2,
+  "ball_diameter_at_32_px": [
+    4.4,
+    4.7
+  ]
+}

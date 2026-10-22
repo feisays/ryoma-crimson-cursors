@@ -1,54 +1,51 @@
 # Ryoma Crimson · 越前龙马绯红球拍指针
 
-以红框球拍为主体设计的 Windows 鼠标指针方案，采用绯红、象牙白、石墨黑与荧光黄绿配色。
+以红框球拍为主体的 Windows 鼠标指针方案。绯红、象牙白、石墨黑与荧光黄绿配色，文本和缩放线条加粗。
 
-**17 种状态 · 15 个 CUR + 2 个 ANI · 32 / 48 / 64 / 96 px · 透明背景**
+**当前版本：v2.0.0 · 17 种状态 · 15 CUR + 2 ANI · 32 / 48 / 64 / 96 px**
 
-[下载完整 Windows 指针包](Ryoma-Crimson-Windows.zip?raw=true)
+## 选择版本
 
-![完整方案总览](overview.png)
+| 版本 | 忙碌状态 | 后台运行 | Windows 方案名称 | 下载 |
+| --- | --- | --- | --- | --- |
+| [v2.0.0](https://github.com/feisays/ryoma-crimson-cursors/tree/v2.0.0)（当前） | 线床弹跳 + 三点轮替提示 | 线床弹跳 | `Ryoma Crimson v2.0.0` | [完整指针包](Ryoma-Crimson-v2.0.0-Windows.zip?raw=true) |
+| [v1.0.0](https://github.com/feisays/ryoma-crimson-cursors/tree/v1.0.0) | 拍喉环绕旋转 | 线床弹跳 | `Ryoma Crimson` | [第一版原始包](https://github.com/feisays/ryoma-crimson-cursors/raw/refs/tags/v1.0.0/Ryoma-Crimson-Windows.zip) |
 
-## 动画
+两个版本可同时注册，在“鼠标属性 → 指针 → 方案”中切换。请将两个 ZIP 分别解压到独立的固定目录。
+第一版原始包保持不变；第二版使用独立文件名。历史变更见 [CHANGELOG.md](CHANGELOG.md)，版本与文件校验信息见 [versions.json](versions.json)。
 
-后台运行：网球在线床上循环弹跳，触网时轻微压缩，阴影随高度变化。
+![第二版完整方案总览](overview.png)
+
+## 第二版动画
+
+忙碌状态采用最初设计：球拍固定，网球在线床循环升起、回落，触网时轻微压缩，阴影随高度变化。
+拍头右上方三个状态点依次亮起，每点持续约 **0.4 秒**。
+
+![第二版忙碌：线床弹跳与三点轮替](busy-bounce.gif)
+
+后台运行继续使用线床弹跳。
 
 ![后台运行：线床弹跳](working-bounce.gif)
 
-忙碌：网球绕拍喉旋转，通过前后遮挡表现空间关系。球拍与热点固定。
+两套动画均为 **24 帧、20 fps、1.2 秒循环**，热点保持固定。
 
-![忙碌：拍喉环绕](busy-orbit.gif)
+## 安装和切换
 
-两种动画均为 24 帧、20 fps、1.2 秒循环。文本、缩放等功能状态使用加粗线条。
-
-## 安装
-
-1. 下载并解压 `Ryoma-Crimson-Windows.zip` 到长期保留的位置。
+1. 下载选定版本 ZIP，解压到长期保留的位置。
 2. 进入解压后的 `ryoma-crimson` 文件夹，双击 `register.cmd`。
-3. 在“鼠标属性 → 指针 → 方案”中选择 **Ryoma Crimson**，单击“应用”。
+3. 在“鼠标属性 → 指针 → 方案”中选择对应版本，然后“应用”。
 
-脚本仅向当前用户注册方案并打开鼠标设置，无需管理员权限。应用后请保留指针文件所在目录。
+脚本只注册当前用户的方案并打开设置，无需管理员权限。应用后请保留文件所在目录。
+卸载某个版本前，先切换至另一方案，再运行该版本的 `unregister-scheme.ps1`。
 
-卸载时先切换至其他方案，再运行 `unregister-scheme.ps1`。
+## 源码与构建
 
-## 安装包内容
+第二版源码、指针和离线预览已展开保存在 [ryoma-crimson/](ryoma-crimson/)，完整 ZIP 也包含相同内容。
+第一版的原始源码保存在 `v1.0.0` 标签下的 ZIP 中。
 
-ZIP 同时收录可编辑源码、全部 SVG 母版、帧图、验证记录与离线预览。下表中的 `ryoma-crimson/` 目录位于 ZIP 内，解压后即可使用。
+版本信息源文件为 [ryoma-crimson/version.json](ryoma-crimson/version.json)；根目录 `VERSION`、`package.json` 和 `versions.json` 记录仓库版本及下载信息。
 
-| 路径 | 内容 |
-| --- | --- |
-| `Ryoma-Crimson-Windows.zip` | 可直接使用的完整指针包 |
-| `ryoma-crimson/cursors/` | 17 个 Windows 指针文件 |
-| `ryoma-crimson/preview/` | 总览、动画、各尺寸图与离线交互预览 |
-| `ryoma-crimson/src/` | 矢量绘制、打包与 Windows 验证源码 |
-| `ryoma-crimson/manifest.json` | 状态映射与热点坐标 |
-| `ryoma-crimson/validation.json` | Windows 原生验证记录 |
-
-离线预览：解压完整指针包后，用浏览器打开 `ryoma-crimson/preview/index.html`。
-
-## 重新构建
-
-先将完整指针包解压到仓库根目录，使 `ryoma-crimson/` 与 `package.json` 位于同一层。
-需要 Windows、Python 3.10+、Node.js，以及 Windows 自带的微软雅黑字体。
+需要 Windows、Python 3.10+、Node.js，以及 Windows 自带的微软雅黑字体：
 
 ```powershell
 python -m pip install -r requirements.txt
@@ -56,21 +53,17 @@ npm install
 python ryoma-crimson/src/build.py
 ```
 
-构建脚本会生成 CUR / ANI、SVG 母版、预览和 ZIP，并调用 Windows API 验证资源。
-如需指定其他 Node.js 路径，可设置 `NODE_EXE` 与 `NODE_PATH` 环境变量。
+如需指定其他 Node.js 路径，可设置 `NODE_EXE` 和 `NODE_PATH`。
+离线预览入口为 `ryoma-crimson/preview/index.html`，可暂停动画、切换背景并检查热点。
 
-## 验证范围
+## 验证
 
-目前记录包括 17 个角色在四种尺寸下的 68 次 Windows 原生加载、热点检查、透明边界、
-内嵌像素一致性，以及两种 ANI 在各尺寸下的 24 帧绘制。验证不会更改系统当前指针或注册表。
+每次发布检查四种尺寸的 Windows 原生加载、热点、透明边界、内嵌像素一致性和 ANI 的 24 帧绘制。
+第二版另检查三点的 8 帧轮替，以及除忙碌状态外的 16 个指针文件与第一版逐字节一致。
+记录见 [validation.json](ryoma-crimson/validation.json) 和 [version-validation.json](version-validation.json)。验证不会修改系统当前指针或注册表。
 
-Windows 可能根据指针大小及 DPI 设置选择并缩放资源；实际显示大小和热点取整会受系统设置影响。
-Word 等应用自行提供的专用指针也可能保持应用原有外观。
-
-本方案按参考图重新绘制，为自制指针作品。
+Windows 可能根据指针大小和 DPI 设置缩放资源。Word 等应用自行提供的专用指针也可能保持其原有外观。
 
 ## 开源许可
 
-本项目的原创源码、文档及原创绘制的指针资源，在作者有权授权的范围内，采用 [MIT License](LICENSE)，允许使用、修改和再分发，并须保留许可证及版权声明。
-
-该授权也适用于完整 ZIP 中的相应原创内容。参考图片、第三方角色及商标等权益不在 MIT 授权范围内，详见 [许可范围与第三方权益说明](NOTICE.md)。下载和分发指针包时，请同时保留 `LICENSE` 与 `NOTICE.md`。
+原创内容在作者有权授权的范围内采用 [MIT License](LICENSE)。参考图片、第三方角色及商标权益不在授权范围内，详见 [NOTICE.md](NOTICE.md)。分发时请保留许可证和第三方权益说明。

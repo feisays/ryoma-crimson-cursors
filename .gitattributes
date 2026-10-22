@@ -1,0 +1,7 @@
+* text=auto eol=lf
+*.cmd text eol=crlf
+*.cur -text
+*.ani -text
+*.zip -text
+*.png -text
+*.gif -text

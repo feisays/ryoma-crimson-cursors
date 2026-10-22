@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96"><defs>
+ <linearGradient id="frame" x1="0" y1="0" x2="1" y2=".8">
+  <stop stop-color="#FF6973"/><stop offset=".25" stop-color="#E62D43"/>
+  <stop offset=".65" stop-color="#B5112C"/><stop offset="1" stop-color="#F34855"/>
+ </linearGradient>
+ <linearGradient id="grip"><stop stop-color="#17181D"/><stop offset=".5" stop-color="#414148"/><stop offset="1" stop-color="#191A20"/></linearGradient>
+ <radialGradient id="ball" cx=".3" cy=".24" r=".8"><stop stop-color="#F9FFAA"/><stop offset=".5" stop-color="#D9F348"/><stop offset="1" stop-color="#9EBD20"/></radialGradient>
+ <clipPath id="bed"><path d="M48 5 C37 5 31 15 31 28 C31 41 38 51 48 51 C58 51 65 41 65 28 C65 15 59 5 48 5 Z"/></clipPath>
+ </defs><g fill="none" stroke-linejoin="round" stroke-linecap="round" stroke="#FFF4DF" stroke-width="9.6"><g transform="rotate(45 48 48)"><path d="M48 16 V80 M37 28 L48 16 L59 28 M37 68 L48 80 L59 68"/></g></g><g fill="none" stroke-linejoin="round" stroke-linecap="round" stroke="#24252B" stroke-width="7.8"><g transform="rotate(45 48 48)"><path d="M48 16 V80 M37 28 L48 16 L59 28 M37 68 L48 80 L59 68"/></g></g><g fill="none" stroke-linejoin="round" stroke-linecap="round" stroke="#E62D43" stroke-width="6"><g transform="rotate(45 48 48)"><path d="M48 16 V80 M37 28 L48 16 L59 28 M37 68 L48 80 L59 68"/></g></g><circle cx="48" cy="48" r="4.8" fill="#D9F348" stroke="#24252B" stroke-width="1.3"/></svg>

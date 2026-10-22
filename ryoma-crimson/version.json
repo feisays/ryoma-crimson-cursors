@@ -1,0 +1,7 @@
+{
+  "version": "2.0.0",
+  "previous_version": "1.0.0",
+  "scheme_name": "Ryoma Crimson v2.0.0",
+  "busy_animation": "string-bed bounce with three cycling dots",
+  "working_animation": "string-bed bounce"
+}

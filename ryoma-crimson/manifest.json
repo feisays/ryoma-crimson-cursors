@@ -1,0 +1,410 @@
+[
+  {
+    "role": "normal",
+    "label": "正常选择",
+    "windows_role": "Arrow",
+    "file": "normal.cur",
+    "hotspots": {
+      "32": [
+        7,
+        5
+      ],
+      "48": [
+        11,
+        7
+      ],
+      "64": [
+        14,
+        9
+      ],
+      "96": [
+        21,
+        14
+      ]
+    }
+  },
+  {
+    "role": "help",
+    "label": "帮助选择",
+    "windows_role": "Help",
+    "file": "help.cur",
+    "hotspots": {
+      "32": [
+        7,
+        5
+      ],
+      "48": [
+        11,
+        7
+      ],
+      "64": [
+        14,
+        9
+      ],
+      "96": [
+        21,
+        14
+      ]
+    }
+  },
+  {
+    "role": "working",
+    "label": "后台运行",
+    "windows_role": "AppStarting",
+    "file": "working.ani",
+    "hotspots": {
+      "32": [
+        7,
+        5
+      ],
+      "48": [
+        11,
+        7
+      ],
+      "64": [
+        14,
+        9
+      ],
+      "96": [
+        21,
+        14
+      ]
+    }
+  },
+  {
+    "role": "busy",
+    "label": "忙碌",
+    "windows_role": "Wait",
+    "file": "busy.ani",
+    "hotspots": {
+      "32": [
+        7,
+        5
+      ],
+      "48": [
+        11,
+        7
+      ],
+      "64": [
+        14,
+        9
+      ],
+      "96": [
+        21,
+        14
+      ]
+    }
+  },
+  {
+    "role": "precision",
+    "label": "精确选择",
+    "windows_role": "Crosshair",
+    "file": "precision.cur",
+    "hotspots": {
+      "32": [
+        16,
+        16
+      ],
+      "48": [
+        24,
+        24
+      ],
+      "64": [
+        32,
+        32
+      ],
+      "96": [
+        48,
+        48
+      ]
+    }
+  },
+  {
+    "role": "text",
+    "label": "文本选择",
+    "windows_role": "IBeam",
+    "file": "text.cur",
+    "hotspots": {
+      "32": [
+        16,
+        16
+      ],
+      "48": [
+        24,
+        24
+      ],
+      "64": [
+        32,
+        32
+      ],
+      "96": [
+        48,
+        48
+      ]
+    }
+  },
+  {
+    "role": "handwriting",
+    "label": "手写",
+    "windows_role": "NWPen",
+    "file": "handwriting.cur",
+    "hotspots": {
+      "32": [
+        9,
+        25
+      ],
+      "48": [
+        13,
+        38
+      ],
+      "64": [
+        17,
+        51
+      ],
+      "96": [
+        26,
+        76
+      ]
+    }
+  },
+  {
+    "role": "unavailable",
+    "label": "不可用",
+    "windows_role": "No",
+    "file": "unavailable.cur",
+    "hotspots": {
+      "32": [
+        7,
+        5
+      ],
+      "48": [
+        11,
+        7
+      ],
+      "64": [
+        14,
+        9
+      ],
+      "96": [
+        21,
+        14
+      ]
+    }
+  },
+  {
+    "role": "resize-ns",
+    "label": "垂直调整",
+    "windows_role": "SizeNS",
+    "file": "resize-ns.cur",
+    "hotspots": {
+      "32": [
+        16,
+        16
+      ],
+      "48": [
+        24,
+        24
+      ],
+      "64": [
+        32,
+        32
+      ],
+      "96": [
+        48,
+        48
+      ]
+    }
+  },
+  {
+    "role": "resize-ew",
+    "label": "水平调整",
+    "windows_role": "SizeWE",
+    "file": "resize-ew.cur",
+    "hotspots": {
+      "32": [
+        16,
+        16
+      ],
+      "48": [
+        24,
+        24
+      ],
+      "64": [
+        32,
+        32
+      ],
+      "96": [
+        48,
+        48
+      ]
+    }
+  },
+  {
+    "role": "resize-nwse",
+    "label": "对角调整 ↖↘",
+    "windows_role": "SizeNWSE",
+    "file": "resize-nwse.cur",
+    "hotspots": {
+      "32": [
+        16,
+        16
+      ],
+      "48": [
+        24,
+        24
+      ],
+      "64": [
+        32,
+        32
+      ],
+      "96": [
+        48,
+        48
+      ]
+    }
+  },
+  {
+    "role": "resize-nesw",
+    "label": "对角调整 ↗↙",
+    "windows_role": "SizeNESW",
+    "file": "resize-nesw.cur",
+    "hotspots": {
+      "32": [
+        16,
+        16
+      ],
+      "48": [
+        24,
+        24
+      ],
+      "64": [
+        32,
+        32
+      ],
+      "96": [
+        48,
+        48
+      ]
+    }
+  },
+  {
+    "role": "move",
+    "label": "移动",
+    "windows_role": "SizeAll",
+    "file": "move.cur",
+    "hotspots": {
+      "32": [
+        16,
+        16
+      ],
+      "48": [
+        24,
+        24
+      ],
+      "64": [
+        32,
+        32
+      ],
+      "96": [
+        48,
+        48
+      ]
+    }
+  },
+  {
+    "role": "alternate",
+    "label": "备用选择",
+    "windows_role": "UpArrow",
+    "file": "alternate.cur",
+    "hotspots": {
+      "32": [
+        16,
+        5
+      ],
+      "48": [
+        24,
+        8
+      ],
+      "64": [
+        32,
+        10
+      ],
+      "96": [
+        48,
+        16
+      ]
+    }
+  },
+  {
+    "role": "link",
+    "label": "链接选择",
+    "windows_role": "Hand",
+    "file": "link.cur",
+    "hotspots": {
+      "32": [
+        7,
+        5
+      ],
+      "48": [
+        11,
+        7
+      ],
+      "64": [
+        14,
+        9
+      ],
+      "96": [
+        21,
+        14
+      ]
+    }
+  },
+  {
+    "role": "location",
+    "label": "位置选择",
+    "windows_role": "Pin",
+    "file": "location.cur",
+    "hotspots": {
+      "32": [
+        7,
+        5
+      ],
+      "48": [
+        11,
+        7
+      ],
+      "64": [
+        14,
+        9
+      ],
+      "96": [
+        21,
+        14
+      ]
+    }
+  },
+  {
+    "role": "person",
+    "label": "人员选择",
+    "windows_role": "Person",
+    "file": "person.cur",
+    "hotspots": {
+      "32": [
+        7,
+        5
+      ],
+      "48": [
+        11,
+        7
+      ],
+      "64": [
+        14,
+        9
+      ],
+      "96": [
+        21,
+        14
+      ]
+    }
+  }
+]
