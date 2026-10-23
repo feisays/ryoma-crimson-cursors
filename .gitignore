@@ -3,3 +3,4 @@ __pycache__/
 node_modules/
 .venv/
 ryoma-crimson/src/render-jobs.json
+ryoma-crimson/cursor-color-backup.local.json

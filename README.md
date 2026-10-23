@@ -64,6 +64,16 @@ python ryoma-crimson/src/build.py
 
 Windows 可能根据指针大小和 DPI 设置缩放资源。Word 等应用自行提供的专用指针也可能保持其原有外观。
 
+## 某台显示器上指针颜色变淡
+
+如果桌面和多个应用都出现“松开鼠标时颜色淡、按住时正常”，而另一台电脑正常，可能与 Windows／显卡的指针合成或显示器色彩处理有关，不能仅凭这一现象确定是 HDR。先在出现问题的电脑上排查，无需调整整套指针的配色。
+
+源码目录提供可恢复的兼容性试验：在 PowerShell 中运行 `ryoma-crimson/cursor-color-workaround.ps1`，开启最短指针轨迹（值为 2），然后比较松开、按住和移动鼠标时的颜色。这可能缓解部分电脑的显示问题，但需实际观察确认，也可能带来可见拖影。
+
+如果颜色恢复但拖影明显，可运行 `ryoma-crimson/cursor-color-workaround.ps1 -NoTrail` 试用参数 `-1`，这是未公开支持的无拖尾兼容用法。[NVIDIA 指针褪色的复现记录](https://github.com/kamusmg/nvidia-bright-cursor-fix)报告它可绕开异常的硬件指针绘制路径。效果需在本机确认；软件指针的响应可能受画面刷新影响。脚本不会安装常驻程序，也不会更改指针文件。
+
+脚本首次运行会在同目录备份当前用户的原设置，再次运行不会覆盖备份。运行 `ryoma-crimson/cursor-color-workaround.ps1 -Restore` 恢复，或用 `-Status` 查询。该设置作用于当前用户的所有鼠标指针；只在受影响的电脑上使用，不随指针方案自动启用。微软的 [SystemParametersInfoW 文档](https://learn.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-systemparametersinfow)说明了指针轨迹参数。
+
 ## 开源许可
 
 原创内容在作者有权授权的范围内采用 [MIT License](LICENSE)。参考图片、第三方角色及商标权益不在授权范围内，详见 [NOTICE.md](NOTICE.md)。分发时请保留许可证和第三方权益说明。
