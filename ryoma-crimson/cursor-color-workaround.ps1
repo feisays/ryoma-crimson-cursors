@@ -46,6 +46,8 @@ if ($Restore) {
     }
     [uint32]$target = $backup.MouseTrails
     if ($target -gt 16 -and $target -ne [uint32]::MaxValue) { throw 'Invalid saved mouse trails value.' }
+    $logonScript = Join-Path $PSScriptRoot 'cursor-color-logon.ps1'
+    if (Test-Path -LiteralPath $logonScript) { & $logonScript -Remove }
 } else {
     if (-not (Test-Path -LiteralPath $backupPath)) {
         @{

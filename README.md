@@ -74,6 +74,10 @@ Windows 可能根据指针大小和 DPI 设置缩放资源。Word 等应用自�
 
 脚本首次运行会在同目录备份当前用户的原设置，再次运行不会覆盖备份。运行 `ryoma-crimson/cursor-color-workaround.ps1 -Restore` 恢复，或用 `-Status` 查询。该设置作用于当前用户的所有鼠标指针；只在受影响的电脑上使用，不随指针方案自动启用。微软的 [SystemParametersInfoW 文档](https://learn.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-systemparametersinfow)说明了指针轨迹参数。
 
+如果重启后再次变淡，可能是注册表仍保存 `-1`，但 Windows 登录时未将这个特殊值加载到运行时；`-Status` 显示的就是运行时读数。运行 `ryoma-crimson/cursor-color-logon.ps1` 可立即应用修复，并为当前用户创建登录任务，在登录 15 秒后无窗口重新应用一次，无需常驻进程。任务使用当前用户的普通权限，不保存密码。启用期间请保留脚本所在目录。
+
+用 `ryoma-crimson/cursor-color-logon.ps1 -Status` 查看任务；用 `-Remove` 仅移除自动应用。运行原脚本的 `-Restore` 会先移除登录任务，再恢复备份的指针设置。
+
 ## 开源许可
 
 原创内容在作者有权授权的范围内采用 [MIT License](LICENSE)。参考图片、第三方角色及商标权益不在授权范围内，详见 [NOTICE.md](NOTICE.md)。分发时请保留许可证和第三方权益说明。
